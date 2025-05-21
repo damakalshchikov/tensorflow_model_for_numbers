@@ -41,12 +41,6 @@ wheels/
 .env.local
 .env.*.local
 
-# Файлы моделей (если они большие)
-*.h5
-*.keras
-*.pkl
-*.model
-
 # Временные файлы
 *.tmp
 *.temp
