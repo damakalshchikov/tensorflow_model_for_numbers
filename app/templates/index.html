@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Распознавание цифр</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Нарисуйте цифру</h1>
+    <div class="container">
+        <canvas id="canvas" width="200" height="200"></canvas>
+        <div class="buttons">
+            <button id="predictBtn">🔍 Распознать</button>
+            <button id="clearBtn">🧹 Очистить</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/canvas.js') }}"></script>
+</body>
+</html>
